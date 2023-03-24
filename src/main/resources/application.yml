@@ -9,7 +9,7 @@ spring:
   application:
     name: ea-project
   datasource:
-    url: jdbc:mysql://ea-project-db-server.mysql.database.azure.com:3306/eaproject
+    url: jdbc:sqlserver://ea-project-db-server.mysql.database.azure.com:3306;databaseName=eaproject;
 #    url: jdbc:sqlserver://cs544.cs.miu.edu:1433;databaseName=CS544-202303-08;encrypt=true;trustServerCertificate=true;
 #    username: CS544-202303-08
 #    password: dc70d089-d5a2-4fb3-b3b9-1e237116fdb7
