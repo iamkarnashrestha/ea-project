@@ -19,7 +19,7 @@ spring:
       maximumPoolSize: 10
     username: karna
     password: ea@Project
-    ssl: required
+    ssl-mode: require
   jpa:
     show-sql: true
     hibernate:
