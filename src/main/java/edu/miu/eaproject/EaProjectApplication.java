@@ -24,5 +24,6 @@ public class EaProjectApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 	//test for deploy hjgjugu
+//		changing for deploymentt
 	}
 }
