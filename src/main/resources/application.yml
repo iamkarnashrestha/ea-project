@@ -30,7 +30,8 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
-    defer-datasource-initialization: true
+    defer-datasource-initialization: false
+
 logging:
   file:
     name: /Coding/Logging/${spring.application.name}/log
